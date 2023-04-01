@@ -1,6 +1,6 @@
 /* Exercise 1 - Calculations
 
-   Write a C program to input marks of two subjects. Calculate and print the average of the two marks. */
+   Write a C++ program to input marks of two subjects. Calculate and print the average of the two marks. */
 
 #include<iostream>
 using namespace std;
