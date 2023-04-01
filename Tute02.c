@@ -18,7 +18,23 @@ Amount = 30 x 50 + (50-30) x 40 = 2300*/
 
 #include <stdio.h>
 
-int main() {
-  
-  return 0;
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	float distance,amount;
+
+	cout << "Input the distance the van has travelled :";
+	cin >> distance;
+
+	if (distance <= 30)
+	{
+		amount = distance * 50;
+	}
+	else
+	{
+		amount = (distance - 30) * 40 + (30 * 50);
+	}
+	cout << "Full Payment is : " << amount;
 }
