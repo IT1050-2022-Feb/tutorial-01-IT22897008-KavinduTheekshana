@@ -1,6 +1,6 @@
 /*Exercise 2 - Selection
 
-Write a program to calculate the amount to be paid for a rented vehicle.
+Write a c++ program to calculate the amount to be paid for a rented vehicle.
 
 •	Input the distance the van has travelled
 •	The first 30 km is at a rate of 50/= per km.
@@ -15,8 +15,6 @@ Amount = 20 x 50 = 1000
 
 Distance -> 50
 Amount = 30 x 50 + (50-30) x 40 = 2300*/
-
-#include <stdio.h>
 
 #include<iostream>
 using namespace std;
@@ -37,4 +35,5 @@ int main()
 		amount = (distance - 30) * 40 + (30 * 50);
 	}
 	cout << "Full Payment is : " << amount;
+	return 0;
 }
